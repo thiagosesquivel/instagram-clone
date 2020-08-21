@@ -1,0 +1,164 @@
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 935px;
+
+}
+
+.image-example{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.instagram-image{
+    height: auto;
+    width: 100%;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.box{
+    background: #fff;
+    border: 1px  solid #dbdbdb;
+    display: flex;
+    width: 100%;
+    padding:1.25rem;
+    max-width: 21.875rem;
+}
+
+.box-login{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60%;
+}
+
+.box-login>.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.input-group{
+    background:#fafafa;
+    padding:0.625rem;
+    border: 1px solid #8e8e8e;
+    outline:0;
+    position: relative;
+    transition: all 0.3s;
+    border-radius: 0.35rem;
+    margin-bottom: 1rem;
+
+}
+
+.input-group >input{
+    background: transparent;
+    border:0;
+    position: relative;
+    outline:0;
+    font-size: 0.875rem;
+
+}
+
+.input-group>label{
+    position: absolute;
+    left: 0.5rem;
+    color: #8e8e8e;
+    font-size: 0.875rem;
+    
+}
+
+.input-group > input:focus + label{
+    font-size: 0.625rem;
+    top:0px;
+    transition: all 0.3s;
+
+}
+
+.btn{
+    border:0;
+    outline:0;
+    border-radius: 0.35rem;
+    padding:0.625rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background: rgba(0,149,246,.3);
+    color:#fff;
+}
+
+.btn-primary:hover
+{
+    background: #0095f6;
+}
+
+.divisor{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.border{
+    border-bottom: 1px solid #8e8e8e;
+    width: 120px;
+}
+
+.remember-link{
+    color:#00376b;
+}
+
+.facebook-link{
+color: #385185;
+font-size:1.2rem;
+font-weight: bold;
+}
+
+.sing-up-link{
+    color: #0095f6;
+}
+
+.other-login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.box-cadastro{
+    margin-top: 1.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.data-rodape{
+    width:100%;
+    max-width:21.875rem;
+    text-align: center;
+    
+}
+
+.stores{
+    width: 100%;
+    display: flex;
+
+}
+
+.store-image{
+    width:50%;
+}
