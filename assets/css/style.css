@@ -5,6 +5,7 @@
     align-items: center;
     height: 100%;
     max-width: 935px;
+    justify-content: center;
 
 }
 
@@ -161,4 +162,15 @@ font-weight: bold;
 
 .store-image{
     width:50%;
+}
+
+
+@media(max-width:875px)
+{
+    .image-example{
+        display: none;
+    }
+    .data{
+        width: inherit;
+    }
 }
